@@ -76,20 +76,23 @@ body {
 
 .banner {
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 30px;
+}
+
+.banner h2 {
+    margin-top: 30px;
 }
 
 .banner-img {
-    width: 100%;
+    width: 100;
+    padding: 10px;
     height: 320px;
-    padding: 5px;
     border: 1px solid rgb(229, 229, 229);
 }
 
-.border-item img,
-.banner-img img {
-    width: 100%;
-    height: 100%;
+.banner-img .redBox {
+    background-color: rgb(239, 87, 65);
+    height: 300px;
 }
 
 .discount {
@@ -126,10 +129,11 @@ body {
 
 .discount h6 {
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .discount h5 span {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: bold;
     color: black;
 }
@@ -163,14 +167,13 @@ body {
 }
 
 .section-1,
-.section-2,
 .section-3,
-.section-4 {
+.section-2 {
     margin-top: 40px;
 }
 
-.section-2 p {
-    margin-left: 15px;
+.section-2 {
+    margin-left: 30px;
 }
 
 .section-2 button {
@@ -188,11 +191,19 @@ body {
     width: 100%;
 }
 
-.bg-sec5,
+.bg-sec5 {
+    width: 100%;
+    border: 1px dashed rgb(193, 193, 193);
+    background-color: rgb(248, 248, 248);
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+}
+
 .bg-item {
     width: 100%;
-    border: 1px dashed #333;
+    border: 1px dashed rgb(193, 193, 193);
     background-color: rgb(248, 248, 248);
+    border-top-style: hidden;
 }
 
 .bg-sec5 {
@@ -238,24 +249,29 @@ body {
     padding: 10px;
     margin-bottom: 20px;
     background-color: #fff;
+    color: rgb(182, 182, 182);
 }
 
-.sec4-items .border-item img {
-    margin-bottom: 10px;
+.sec4-items .redBox {
+    background-color: rgb(239, 87, 65);
+    height: 150px;
 }
 
 .sec4-items .border-item h6 {
+    margin-top: 10px;
     float: left;
     line-height: 20px;
     margin-right: 10px;
     padding-right: 10px;
     text-align: center;
     border-right: 1px dashed #000;
+    font-weight: bold;
 }
 
 .sec4-items .border-item h6 span {
     line-height: 30px;
-    font-weight: normal;
+    color: black;
+    font-weight: bold;
 }
 
 .sec4-items .border-item h6:last-child {
