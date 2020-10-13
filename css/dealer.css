@@ -40,23 +40,30 @@ body {
 }
 
 .header-mailbox {
+    margin-left: -3px;
     min-height: 100px;
     background-color: #ffff;
 }
 
-.header-mailbox img {
-    width: 100%;
+.header-mailbox .stemp {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -70px;
 }
 
 .header-mailbox .submit-zone {
     padding: 20px;
+    margin-top: -15px;
 }
 
 .header-mailbox .submit-zone h5 {
     margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .header-mailbox .submit-zone input[type=email] {
+    margin-top: 10px;
     width: 298px;
     padding: 5px;
     margin-right: 5px;
